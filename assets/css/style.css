@@ -76,20 +76,23 @@ header {
     background-size: cover;
     background-position: center;
 }
+
 .container-text {
     width: 100vw;
-
 }
+
 .container-text h2 {
     margin-left: 20px;
     font-size: 40px;
 }
-.container-text p{
+
+.container-text p {
     font-size: 40px;
     background-color: black;
     color: red;
     text-align: center;
 }
+
 .container-text h1 {
     font-size: 100px;
     color: #FF8C00;
@@ -97,7 +100,6 @@ header {
     background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 footer {
@@ -112,67 +114,73 @@ footer {
     height: auto;
     width: 100vw;
     display: flex;
-
 }
+
 .wiki-left {
     height: 100%;
     width: 20%;
     background-color: white;
     border-right: lightblue solid 2px;
 }
+
 .wiki-left img {
     width: 100%;
     border-radius: 50%;
-    
 }
-
 
 .wiki-left p {
     text-align: center;
     font-family: 'Henny Penny', cursive;
     font-size: 30px;
     margin-top: 10px;
-
 }
+
 .wiki-subtitle {
     text-align: center;
 }
+
 .wiki-main {
     height: 100%;
     width: 80%;
 }
+
 .our-form {
     height: 60px;
     width: 100%;
     background-color: rgba(119, 136, 153, 0.26);
 }
+
 .wiki-left ul {
     text-align: left;
     margin-left: 50px;
     line-height: 1.5;
     margin-top: 20px;
 }
+
 .wiki-leftーsubtitle {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 20px;
     border-bottom: solid 1px #808080;
 }
+
 .main-form {
     display: flex;
     /* margin-top: 10px; */
     justify-content: end;
     margin-right: 10px;
-    
 }
+
 .main-form p {
     margin-left: 10px;
 }
+
 .pege-seach {
     height: 70px;
     width: 200px;
     margin-bottom: 10px;
 }
+
 .wiki-seach {
     display: flex;
     justify-content: end;
@@ -182,45 +190,49 @@ footer {
 .main-section {
     margin-left: 50px;
 }
+
 .main-section h2 {
     margin-top: 20px;
     padding-bottom: 10px;
     font-size: 40px;
     border-bottom: #808080 solid 1px;
-
 }
+
 .main-text {
     margin-top: 80px;
     border-top: #808080 solid 1px;
     display: flex;
-
 }
+
 .main-text p {
     line-height: 1.5;
     font-size: 20px;
     width: 900px;
 }
+
 .main-text img {
     border-radius: 40%;
     margin: 20px;
     height: 300px;
     animation: jack 1s ease 0s infinite alternate;
-    transform-origin:center;
+    transform-origin: center;
 }
+
 @keyframes jack {
     from {
-        transform: scale(0.6,0.6);
-      }
-      to {
-        transform: scale(1,1);
-      }
+        transform: scale(0.6, 0.6);
+    }
+    to {
+        transform: scale(1, 1);
+    }
 }
-.parallax_content{
+
+.parallax_content {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 .parallax_box {
     height: 400px;
@@ -229,60 +241,40 @@ footer {
     overflow-y: auto;
 }
 
-  .img_bg_01{
+.img_bg_01 {
     background-image: url(../img/parallax/star_wars.jpeg);
     background-position: left top;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-    
-  }
-  .img_bg_02{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.img_bg_02 {
     background-image: url(../img/parallax/kimetsu_Halloween.jpeg);
     background-position: left top;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
 
-  }
-  .img_bg_03{
+.img_bg_03 {
     background-image: url(../img/parallax/crayon.jpeg);
     background-position: left top;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
 
-  }
-  .img_bg_04{
+.img_bg_04 {
     background-image: url(../img/parallax/Disney.jpeg);
     background-position: left top;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
 
-  }
-   
-  .img_bg_05 {
-    background-image: url( ../img/parallax/kita_tann.jpeg);
+.img_bg_05 {
+    background-image: url(../img/parallax/kita_tann.jpeg);
     background-position: left top;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
 
 /* ここからレスポンシブ対応 */
 
@@ -305,14 +297,12 @@ footer {
         background-position: center;
         background-size: cover;
     }
-
     .container-text h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
-
-
-
-
+    .container-text p {
+        font-size: 20px;
+    }
     /* ハンバーガーメニュー */
     .hamburger {
         width: 60px;
@@ -342,21 +332,18 @@ footer {
     .hamburger .pate::after {
         top: 9px;
     }
-    #hamburger:checked + .hamburger .pate {
+    #hamburger:checked+.hamburger .pate {
         background-color: transparent;
     }
-    #hamburger:checked + .hamburger .pate::before {
+    #hamburger:checked+.hamburger .pate::before {
         transform: rotate(45deg) translate(5px, 5px);
     }
-    #hamburger:checked + .hamburger .pate::after {
+    #hamburger:checked+.hamburger .pate::after {
         transform: rotate(-45deg) translate(7px, -8px);
     }
     #hamburger {
         display: none;
     }
-
-
-
     header {
         position: fixed;
         width: calc(100%);
@@ -389,7 +376,7 @@ footer {
     .Windows li {
         margin-top: 10px;
     }
-    #hamburger:checked ~ .Windows {
+    #hamburger:checked~.Windows {
         right: 0;
     }
     .wiki-left img {
@@ -397,7 +384,6 @@ footer {
         height: auto;
         object-fit: cover;
     }
-
     .wiki-left p {
         font-size: 15px;
     }
@@ -412,15 +398,14 @@ footer {
     }
     .wiki-left li {
         font-size: 10px;
-    }  
-    .main-text  p{
+    }
+    .main-text p {
         font-size: 12px;
     }
     /* ジャックランタン */
     .main-text img {
         height: 200px;
     }
-
     /* パララックス */
     .parallax_box {
         width: auto;
@@ -429,8 +414,4 @@ footer {
         height: 600px;
         width: 300px;
     }
-
-    
-    
-
 }
